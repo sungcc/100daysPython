@@ -1,7 +1,11 @@
 #write your code below this line
 #Hint: remember to import the random module first
 
-import random
-print('0= head, 1= tail')
+import random 
+
 dice = random.randint(0,1)
-print(dice)
+
+if dice == 0:
+	print('you rolled a head')
+else:
+	print('you rolled a tail')
